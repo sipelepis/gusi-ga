@@ -1,0 +1,42 @@
+{
+  "name": "ga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/app.ts"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^3.1.1",
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.8",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.7.3",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "pino": "^8.7.0",
+    "pino-pretty": "^9.1.1",
+    "pug": "^3.0.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "^3.3.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/lodash": "^4.14.190",
+    "@types/mongoose": "^5.11.97",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^18.11.9",
+    "@types/pino": "^7.0.5",
+    "@types/yup": "^0.32.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
